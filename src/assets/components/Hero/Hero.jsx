@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Hero() {
     return (
       <section className="h-screen bg-gradient-to-br from-yellow-200 to-pink-100 text-zinc-600 flex flex-col items-center justify-center text-center">
@@ -21,7 +23,7 @@ export default function Hero() {
         </p>
   
         {/* Botón */}
-        <Link 
+        <Link
           to="/proyectos" 
           className="mt-6 px-8 py-3 bg-indigo-400 text-white rounded-full text-lg font-semibold shadow-md hover:scale-105 transition"
         >

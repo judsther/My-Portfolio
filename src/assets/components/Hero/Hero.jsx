@@ -21,12 +21,12 @@ export default function Hero() {
         </p>
   
         {/* Botón */}
-        <a 
-          href="/proyectos" 
+        <Link 
+          to="/proyectos" 
           className="mt-6 px-8 py-3 bg-indigo-400 text-white rounded-full text-lg font-semibold shadow-md hover:scale-105 transition"
         >
           Ver Proyectos
-        </a>
+        </Link>
       </section>
     );
   }

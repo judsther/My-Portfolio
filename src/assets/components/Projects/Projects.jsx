@@ -36,7 +36,7 @@ export default function Projects() {
               key={index}
               className="relative group p-6 bg-white shadow-lg rounded-xl overflow-hidden transform hover:scale-105 transition duration-300"
             >
-              {/* Miniatura de la web */}
+              
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-300">
                 <iframe
                   src={project.link}
@@ -46,13 +46,13 @@ export default function Projects() {
                 ></iframe>
               </div>
               
-              {/* Contenido */}
+             
               <div className="relative z-10 transition duration-300 group-hover:opacity-0">
                 <h3 className="text-2xl font-semibold text-indigo-400">{project.title}</h3>
                 <p className="text-zinc-600 mt-2">{project.desc}</p>
               </div>
   
-              {/* Link visible siempre */}
+              
               <a
                 href={project.link}
                 target="_blank"

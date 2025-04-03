@@ -14,7 +14,7 @@ export default function Contact() {
 
       {/* Título */}
       <h2 className="text-4xl font-bold mt-14">Contáctame</h2>
-      <p className="text-lg mt-2 text-zinc-700">
+      <p className="text-lg mt-2 text-zinc-700 m-4 md:m-0">
         ¡Hablemos! Puedes escribirme por WhatsApp, correo o en mis redes:
       </p>
 

@@ -1,0 +1,62 @@
+.personaje {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+.cara {
+  width: 250px;
+  height: 200px;
+  background: #393934;
+  clip-path: path("M26 58Q15 75 35 92C56 105 74 103 91 94Q118 77 102 57 115 34 89 41 66 27 39 41 14 30 26 56ZM52 140Q4 131 42 96 66 108 91 94 132 132 85 140C78 142 59 142 52 140Z");
+  position: absolute;
+
+}
+
+.ojo {
+  width: 18px;
+  height: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 80% 80% 100% 100%;
+  position: absolute;
+  top: 55px;
+}
+
+.iris {
+  width: 15px;
+  height: 16px;
+  background: black;
+  border-radius: 80% 80% 70% 70%;
+  position: relative;
+  top: 5px;
+  left: 1.5px;
+}
+
+.ojo-izq {
+  left: 40px;
+}
+
+.ojo-der {
+  right:160px;
+}
+
+.mano {
+  width: 100px;
+  height: 100px;
+  background: #3e3620;
+  clip-path: path("M9 33 14 46C26 30 49 25 42 13 28-2 19.6667 28.3333 9 33Z");
+  border-radius: 15px 30px 50px 0px;
+  position: absolute;
+  right: -40px;
+  top: 76px;
+  transform-origin: left;
+  animation: saludar 2s infinite ease-in-out;
+}
+
+/* animación de saludo */
+@keyframes saludar {
+  100% { transform: rotate(0deg); }
+  60% { transform: rotate(-20deg); }
+  30% { transform: rotate(30deg); }
+  0% { transform: rotate(0deg); }
+}

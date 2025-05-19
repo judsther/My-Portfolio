@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const QuienesSomos = () => {
   const [activeTab, setActiveTab] = useState("historia");

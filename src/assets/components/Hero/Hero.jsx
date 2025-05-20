@@ -8,17 +8,18 @@ import {
   SiPhp,
   SiGit,
   SiFirebase,
+  SiNextdotjs,
+  SiVite,
 } from "react-icons/si";
-import HeroCharacter from "./HeroCharacter";
+//import HeroCharacter from "./HeroCharacter";
 
 
 
 export default function Hero() {
   return (
     <>
-
-      <section className="h-auto pb-22 md:pb-0 bg-gradient-to-br from-yellow-200 to-pink-100 text-zinc-600 flex flex-col items-center justify-center text-center">
-      <HeroCharacter/>
+      <section className="h-auto md:pb-0 bg-gradient-to-br from-yellow-200 to-pink-100 text-zinc-600 flex flex-col items-center justify-center text-center">
+        {/*<HeroCharacter/> Not ready*/}
         <section className="flex flex-col items-center justify-center z-10">
           {/* Imagen de perfil */}
           <div className="md:pt-21 pt-25">
@@ -45,6 +46,8 @@ export default function Hero() {
               <div className="flex gap-3 md:gap-10 text-3xl text-zinc-100 bg-zinc-600 rounded-full p-4 md:px-6">
                 <SiJavascript className="" />
                 <SiReact className="" />
+                <SiNextdotjs className="" />
+                <SiVite className="" />
                 <SiTailwindcss className="" />
                 <SiBootstrap className="" />
                 <SiGit className="" />
@@ -77,7 +80,6 @@ export default function Hero() {
           </div>
         </section>
       </section>
- 
     </>
   );
 }

@@ -9,6 +9,12 @@ export default function Projects() {
         desc: "Mi proyecto Next.js más reciente, desde el diseño al desarrollo, optimizada para un SEO efectivo y tiempo de carga mejorado con CldImage para el uso de gran cantidad de imágenes dada la naturaleza del negocio.",
       },
       {
+        title: "Website para negocio de productos/servicios en desarrollo.",
+        link: "https://website-comercial.vercel.app",
+        src: "",
+        desc: "Web desarrollada con tecnología Next.js, su atractivo consiste en la transformación del navbar al hacer scroll gracias al uso de useState y useEffect de React en conjunto con otras librerías. Actualmente en proceso modo plantilla con placeholders lista para personalizar.",
+      },
+      {
         title: "Emmanuel Church",
         link: "https://emmanuel-church-six.vercel.app/",
         src: "https://res.cloudinary.com/djsdqleik/image/upload/v1743712319/Screenshot_2025-04-03_at_2.30.35_PM_gyat0q.png",
@@ -20,18 +26,12 @@ export default function Projects() {
         src: "https://res.cloudinary.com/djsdqleik/image/upload/v1743712321/Screenshot_2025-04-03_at_2.29.30_PM_d0yor8.png",
         desc: "Aplicación web básica para una empresa de carpintería especializada.",
       },
-      {
-        title: "My Gym Chat",
-        link: "https://my-gym-chat.vercel.app/",
-        src: "https://res.cloudinary.com/djsdqleik/image/upload/v1743712315/Screenshot_2025-04-03_at_2.28.43_PM_vqmedk.png",
-        desc: "Aplicación de chat en tiempo real para gimnasios. Desarrollada con React y Firebase.",
-      },
-      {
-        title: "Mush Store",
-        link: "https://mush-beta.vercel.app",
-        src: "",
-        desc: "Plataforma de ventas con un diseño minimalista.",
-      },
+      // {
+      //   title: "My Gym Chat",
+      //   link: "https://my-gym-chat.vercel.app/",
+      //   src: "https://res.cloudinary.com/djsdqleik/image/upload/v1743712315/Screenshot_2025-04-03_at_2.28.43_PM_vqmedk.png",
+      //   desc: "Aplicación de chat en tiempo real para gimnasios. Desarrollada con React y Firebase.",
+      // },
     ];
   
     return (

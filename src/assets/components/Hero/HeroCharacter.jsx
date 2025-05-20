@@ -2,7 +2,7 @@ import './heroCharacter.css';
 
 export default function HeroCharacter() {
     return (
-      <div className='absolute h-full w-full flex justify-baseline items-end md:me-18 md:mb-8 mt-96 md:mt-15 -mb-42'>
+      <div className='absolute h-full w-full flex items-end md:me-0 md:mb-0 mt-96 md:mt-15 -mb-42'>
       <div class="personaje">
       <div class="mano"></div>
       <div class="cara">

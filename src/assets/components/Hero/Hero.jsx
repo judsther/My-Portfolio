@@ -18,7 +18,7 @@ import {
 export default function Hero() {
   return (
     <>
-      <section className="h-auto md:pb-2 bg-gradient-to-br from-yellow-200 to-pink-100 text-zinc-600 flex flex-col items-center justify-center text-center">
+      <section className="min-h-screen md:h-auto md:pb-0 bg-gradient-to-br from-yellow-200 to-pink-100 text-zinc-600 flex flex-col items-center justify-center text-center">
         {/*<HeroCharacter/> Not ready*/}
         <section className="flex flex-col items-center justify-center z-10">
           {/* Imagen de perfil */}
@@ -60,9 +60,9 @@ export default function Hero() {
             {/* Bio */}
             <div className="flex flex-col items-center justify-center px-8 ">
               <p className="mt-4 px-3 md:px-50  text-lg text-zinc-700">
-                Desarrolladora Full Stack Jr buscando aportar soluciones
+                Desarrolladora Web Jr. buscando aportar soluciones
                 creativas y eficientes para la digitalización de empresas por
-                medio de páginas/aplicaciones web completas. Abierta a aportar
+                medio de páginas/aplicaciones web completas. Dispuesta a aportar
                 con mi trabajo a causas que impacten positivamente en la
                 sociedad. Siempre en el camino de aprender y mejorar.
               </p>

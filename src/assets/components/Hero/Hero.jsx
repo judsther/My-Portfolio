@@ -43,7 +43,7 @@ export default function Hero() {
 
             {/* Iconos de habilidades */}
             <div className="flex items-center justify-center py-3 px-2 md:px-0">
-              <div className="flex gap-3 md:gap-10 text-3xl text-zinc-100 bg-zinc-600 rounded-full p-4 md:px-6">
+              <div className="flex gap-3 md:gap-10 text-[22px] md:text-3xl text-zinc-100 bg-zinc-600 rounded-full p-3 md:px-6">
                 <SiJavascript className="" />
                 <SiReact className="" />
                 <SiNextdotjs className="" />

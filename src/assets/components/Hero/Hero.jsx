@@ -18,7 +18,7 @@ import {
 export default function Hero() {
   return (
     <>
-      <section className="h-auto md:pb-0 bg-gradient-to-br from-yellow-200 to-pink-100 text-zinc-600 flex flex-col items-center justify-center text-center">
+      <section className="h-auto md:pb-2 bg-gradient-to-br from-yellow-200 to-pink-100 text-zinc-600 flex flex-col items-center justify-center text-center">
         {/*<HeroCharacter/> Not ready*/}
         <section className="flex flex-col items-center justify-center z-10">
           {/* Imagen de perfil */}

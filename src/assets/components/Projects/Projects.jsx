@@ -69,12 +69,12 @@ export default function Projects() {
         ),
         desc: "Aplicación web básica para una empresa de carpintería especializada.",
       },
-      // {
-      //   title: "My Gym Chat",
-      //   link: "https://my-gym-chat.vercel.app/",
-      //   src: "https://res.cloudinary.com/djsdqleik/image/upload/v1743712315/Screenshot_2025-04-03_at_2.28.43_PM_vqmedk.png",
-      //   desc: "Aplicación de chat en tiempo real para gimnasios. Desarrollada con React y Firebase.",
-      // },
+      {
+        title: "Fiber Gourmet Landing Page (en proceso)",
+        link: "https://fg-landing-5re1pts9v-judsthers-projects.vercel.app",
+        src: "",
+        desc: "Proyecto en desarrollo para el lanzamiento del nuevo producto Thinables de Fiber Gourmet.",
+      },
     ];
   
     return (
